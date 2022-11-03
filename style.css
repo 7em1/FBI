@@ -1,0 +1,30 @@
+.navigation {
+    background-color: black;
+    height: 100px;
+   display: flex;
+}
+
+.img {
+    height: 100px;
+}
+.links:hover {
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+
+.home,
+.wanted,
+.about,
+.contacts {
+    text-decoration: none;
+    color:aliceblue;
+}
+.background{
+    height: 700px;
+}
+
+main {
+    background: url(../img/main_img.jpg) no-repeat;
+    height: 700px;
+    width: 200vh;
+}
