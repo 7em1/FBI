@@ -1,7 +1,8 @@
-.navigation {
+.nav {
     background-color: black;
     height: 100px;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .img {
@@ -13,6 +14,12 @@
     text-decoration: underline;
 }
 
+.links {
+    position: absolute;
+    right: 20px;
+
+}
+
 .home,
 .wanted,
 .about,
@@ -22,6 +29,55 @@
 }
 
 main {
-    background: url(../img/main_img.jpg) no-repeat;
+    background: url(../img/main_img.jpg) no-repeat center;
     height: 700px;
+}
+
+.contact {
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .login {
+    position: absolute;
+    bottom: -25px;
+    left: 550px;
+}
+
+.pas {
+    position: absolute;
+    bottom: -55px;
+    left: 550px;
+} */
+
+.email,
+.password {
+    background-color: transparent;
+    width: 150px;
+}
+
+.email {
+    position: absolute;
+    bottom: 0px;
+    left: 660px;
+}
+
+.password {
+    position: absolute;
+    bottom: -30px;
+    left: 660px;
+}
+.label_1{
+    position: absolute;
+    bottom: 0px;
+    left: 530px;
+}
+.label_2{
+    position: absolute;
+    bottom: -30px;
+    left: 530px;
+}
+.label_1,.label_2,.password,.email{
+    color:bisque;
 }
