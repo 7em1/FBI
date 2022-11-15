@@ -2,22 +2,25 @@
     background-color: black;
     height: 100px;
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+
 }
 
 .img {
     height: 100px;
 }
 
-.links:hover {
-    color: blanchedalmond;
-    text-decoration: underline;
+
+.nav_links {
+    display: flex;
+    position: absolute;
+    right: 1px;
+    top: 30px;
 }
 
-.links {
-    position: absolute;
-    right: 20px;
-
+.nav_link:hover {
+    color: blanchedalmond;
+    text-decoration: underline;
 }
 
 .home,
@@ -26,6 +29,7 @@
 .contacts {
     text-decoration: none;
     color: aliceblue;
+    margin: 0 40px 0 0;
 }
 
 main {
@@ -38,18 +42,6 @@ main {
     display: flex;
     flex-direction: column;
 }
-
-/* .login {
-    position: absolute;
-    bottom: -25px;
-    left: 550px;
-}
-
-.pas {
-    position: absolute;
-    bottom: -55px;
-    left: 550px;
-} */
 
 .email,
 .password {
@@ -68,16 +60,40 @@ main {
     bottom: -30px;
     left: 660px;
 }
-.label_1{
+
+.label_1 {
     position: absolute;
     bottom: 0px;
     left: 530px;
 }
-.label_2{
+
+.label_2 {
     position: absolute;
     bottom: -30px;
     left: 530px;
 }
-.label_1,.label_2,.password,.email{
-    color:bisque;
+
+.label_1,
+.label_2,
+.password,
+.email {
+    color: bisque;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(237, 202, 159);
+}
+
+.button {
+    color: bisque;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    bottom: -80px;
+    left: 590px;
+    border-radius: 2em;
+    text-align: center;
+    border: none;
+
 }
