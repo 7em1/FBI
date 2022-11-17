@@ -32,7 +32,7 @@
     margin: 0 40px 0 0;
 }
 
-main {
+.background {
     background: url(../img/main_img.jpg) no-repeat center;
     height: 700px;
 }
