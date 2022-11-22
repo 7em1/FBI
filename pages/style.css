@@ -1,9 +1,11 @@
+body{
+    margin: 0;
+}
 .nav {
     background-color: black;
     height: 100px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .img {
@@ -95,5 +97,8 @@
     border-radius: 2em;
     text-align: center;
     border: none;
-
+}
+.active_link{
+    color: blanchedalmond;
+    text-decoration: underline;
 }

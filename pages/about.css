@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .nav {
     background-color: black;
     height: 100px;
@@ -100,21 +104,26 @@ h1 {
     background-color: grey;
     display: flex;
     align-items: center;
-    justify-content: flex-end;  
+    justify-content: space-between;
 }
 
 .logo_footer {
-    height: 100px;    
-    margin: 0 890px 0 0;
+    height: 100px;
+    margin: 0 89 0px 0 0;
 }
 
 .logo_footer_1 {
     height: 50px;
     margin: 0 35px 0 0;
-    
+
 }
 
 .logo_footer_2 {
     height: 50px;
     margin: 0 13px 0 0;
+}
+
+.active_link {
+    color: blanchedalmond;
+    text-decoration: underline;
 }
