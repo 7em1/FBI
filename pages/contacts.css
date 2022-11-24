@@ -49,7 +49,7 @@ h1 {
 
 .background_about {
     background-color: bisque;
-    height: 550px;
+    height: 770px;
 }
 
 .main_title {
@@ -169,22 +169,52 @@ fieldset {
 .select {
     position: absolute;
     top: 620px;
-    left: 565px;
+    left: 640px;
 }
 
 .label_4 {
     position: absolute;
     top: 600px;
-    left: 560px;
+    left: 645px;
 }
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(220, 126, 11);
+}
+
 .button {
-    color: bisque;
     width: 100px;
     height: 35px;
     position: absolute;
     bottom: -80px;
-    left: 590px;
+    left: 625px;
     border-radius: 2em;
-    text-align: center;
-    border: none;
+    border: solid black 1px;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    margin: 43% 0 0 0;
+}
+
+.insta,
+.twit,
+.you,
+.face {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius: 50%;
+
+}
+
+.insta_pic,
+.face_pic,
+.you_pic,
+.twit_pic {
+    width: 50px;
+    height: 50px;
+    margin: 22px 0 0 24px ;
 }
