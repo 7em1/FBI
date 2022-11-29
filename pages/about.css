@@ -122,6 +122,9 @@ h1 {
     height: 50px;
     margin: 0 13px 0 0;
 }
+.logo_footer_2:hover,.logo_footer_1:hover{
+    transform: scale(1.5);
+}
 
 .active_link {
     color: blanchedalmond;

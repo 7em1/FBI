@@ -59,7 +59,7 @@ h1 {
 .wanted_1,
 .wanted_2,
 .wanted_3,
-.wanted_4,  
+.wanted_4,
 .wanted_5,
 .wanted_7,
 .wanted_8 {
@@ -69,13 +69,28 @@ h1 {
     margin: 20px 20px 0px 0;
 
 }
-.wanted_6{
+
+.wanted_6 {
     width: 300px;
     height: 370px;
     border: solid black 1px;
     margin: 20px 20px 0px 0
 }
-.wanted_5{
+
+.wanted_9 {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    margin: 20px 20px 0px 0;
+}
+
+.wanted_10 {
+    width: 300px;
+    height: 390px;
+    border: solid black 1px;
+}
+
+.wanted_5 {
     margin-left: 50px;
 }
 
@@ -85,7 +100,7 @@ h1 {
 }
 
 .img_block {
-    height: 50em;
+    height: 70em;
     background-color: #cacaf8;
     display: flex;
     flex-wrap: wrap;
@@ -95,15 +110,18 @@ h1 {
 .title {
     color: brown;
 }
+
 .wanted_1:hover,
 .wanted_2:hover,
 .wanted_3:hover,
-.wanted_4:hover,  
+.wanted_4:hover,
 .wanted_5:hover,
 .wanted_6:hover,
 .wanted_7:hover,
-.wanted_8:hover {
-    transform: scale(1.5);  
-    background-color:blueviolet;
-    cursor: pointer; 
+.wanted_8:hover,
+.wanted_9:hover,
+.wanted_10:hover {
+    transform: scale(1.5);
+    background-color: blueviolet;
+    cursor: pointer;
 }

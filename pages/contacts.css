@@ -191,6 +191,8 @@ fieldset {
     left: 625px;
     border-radius: 2em;
     border: solid black 1px;
+    background-color: #f2a74f;
+     color: black;
 }
 
 .circles {
@@ -224,4 +226,7 @@ fieldset {
 .face:hover{
     transform: scale(1.5);  
     background-color: aquamarine;
+}
+.logo_footer_2:hover,.logo_footer_1:hover{
+    transform: scale(1.5);
 }
