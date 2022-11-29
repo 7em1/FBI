@@ -113,69 +113,61 @@ legend {
     ;
 }
 
+.wrapper_main {
+    display: flex;
+    justify-content: center;
+}
+
 .name {
-    position: absolute;
+    /* position: absolute;
     top: 170px;
-    left: 610px;
+    left: 610px; */
 }
 
 .email {
-    position: absolute;
+    /* position: absolute;
     top: 220px;
-    left: 610px;
+    left: 610px; */
 }
 
 .label_1 {
-    position: absolute;
+    /* position: absolute;
     top: 170px;
-    left: 570px;
+    left: 570px; */
 }
 
 .label_2 {
-    position: absolute;
+    /* position: absolute;
     top: 220px;
-    left: 570px;
+    left: 570px; */
 }
 
 .text_big {
     height: 200px;
     width: 250px;
-    position: absolute;
+    /* position: absolute;
     top: 250px;
-    left: 560px;
+    left: 560px; */
     border: solid black 1px;
 }
 
 .box {
     color: black;
-    position: absolute;
-    top: 470px;
-    left: 552px;
-}
 
-.label_3 {
-    position: absolute;
-    top: 470px;
-    left: 570px;
 }
 
 fieldset {
     width: 240px;
-    position: absolute;
-    top: 495px;
-    left: 560px;
+    margin: 10px 0 0 0;
 }
-
-.select {
-    position: absolute;
-    top: 620px;
-    left: 640px;
+.rules{
+    margin-top: 10px;
 }
-
-.label_4 {
-    position: absolute;
-    top: 600px;
-    left: 645px;
+.select,
+.label,
+.button_wrap {
+    display: flex;
+    justify-content: center;
 }
 
 .button:hover {
@@ -186,13 +178,14 @@ fieldset {
 .button {
     width: 100px;
     height: 35px;
-    position: absolute;
-    bottom: -80px;
-    left: 625px;
     border-radius: 2em;
     border: solid black 1px;
     background-color: #f2a74f;
-     color: black;
+    color: black;
+}
+
+.button_wrap {
+    margin-top: 20px;
 }
 
 .circles {
@@ -218,15 +211,26 @@ fieldset {
 .twit_pic {
     width: 50px;
     height: 50px;
-    margin: 22px 0 0 24px ;
+    margin: 22px 0 0 24px;
 }
+
 .insta:hover,
 .twit:hover,
 .you:hover,
-.face:hover{
-    transform: scale(1.5);  
+.face:hover {
+    transform: scale(1.5);
     background-color: aquamarine;
 }
-.logo_footer_2:hover,.logo_footer_1:hover{
+
+.logo_footer_2:hover,
+.logo_footer_1:hover {
     transform: scale(1.5);
+}
+
+.wrapper_contacts {
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
 }

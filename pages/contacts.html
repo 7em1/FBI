@@ -27,39 +27,57 @@
     </header>
     <main class="background_about">
         <h1>Contact Us</h1>
-        <form class="contacts" action="">
-            <label class="label_1" for="email">Name</label>
-            <input class="name" type="email">
-            <label class="label_2" for="email">Email</label>
-            <input class="email" type="email    ">
-            <input class="text_big" type="text">
-            <input class="box" type="checkbox" id="data" name="data">
-            <label class="label_3" for="checkbox">I agree to the processing of my data </label>
-            <fieldset>
-                <legend>I would like to be an agent</legend>
-                <div>
-                    <input class="rad" type="radio" id="Yes" name="Yes" value="Yes">
-                    <label for="radio">Yes</label>
+        <div class="wrapper_main">
+            <form class="contacts" action="">
+
+                <div class="wrapper_contacts">
+                    <label class="label_1" for="email">Name</label>
+                    <input class="name" type="email">
                 </div>
-                <div>
-                    <input class="rad_1" type="radio" id="Yes" name="No" value="No">
-                    <label for="radio">No</label>
+                <div class="wrapper_contacts">
+                    <label class="label_2" for="email">Email</label>
+                    <input class="email" type="email    ">
                 </div>
-                <div>
-                    <input class="rad_2" type="radio" id="Yes" name="agent" value="agent">
-                    <label for="radio">I'm an agent</label>
+                <textarea class="text_big" name="" id="" cols="30" rows="10"></textarea>
+                <br>
+                <div class="rules">
+                    <input class="box" type="checkbox" id="data" name="data">
+                    <label class="label_3" for="checkbox">I agree to the processing of my data </label>
                 </div>
-            </fieldset>
-            <label class="label_4" for="county">country:</label>
-            <div class="select">
-                <select class="county" name="contry" id="Country-select">
-                    <option class="csize" value="Georgia">Georgia</option>
-                    <option class="csize" value="USA">Usa</option>
-                    <option class="csize" value="cat">Turkey</option>
-                </select>
-            </div>
-            <button class="button">Submit</button>
-        </form>
+
+                <fieldset>
+                    <legend>I would like to be an agent</legend>
+                    <div>
+                        <input class="rad" type="radio" id="Yes" name="Yes" value="Yes">
+                        <label for="radio">Yes</label>
+                    </div>
+                    <div>
+                        <input class="rad_1" type="radio" id="Yes" name="No" value="No">
+                        <label for="radio">No</label>
+                    </div>
+                    <div>
+                        <input class="rad_2" type="radio" id="Yes" name="agent" value="agent">
+                        <label for="radio">I'm an agent</label>
+                    </div>
+                </fieldset>
+                <div class="label">
+                    <label class="label_4" for="county">country:</label>
+                </div>
+
+                <div class="select">
+                    <select class="county" name="contry" id="Country-select">
+                        <option class="csize" value="Georgia">Georgia</option>
+                        <option class="csize" value="USA">Usa</option>
+                        <option class="csize" value="cat">Turkey</option>
+                    </select>
+                </div>
+                <div class="button_wrap">
+                    <button class="button">Submit</button>
+                </div>
+
+            </form>
+        </div>
+
         <div class="circles">
             <div class="insta"><a href="https://www.instagram.com/"><img class="insta_pic" src="/img/Instagram.svg"
                         alt="oops"></a></div>
@@ -67,8 +85,8 @@
                         alt="oops"></a></div>
             <div class="twit"><a href="https://twitter.com/?lang=ru"><img class="twit_pic" src="/img/twitter.png"
                         alt="oops"></div></a>
-            <div class="you"><a href="https://www.youtube.com/"><img class="you_pic" src="/img/youtube.png"
-                        alt="oops"></div></a>
+            <div class="you"><a href="https://www.youtube.com/"><img class="you_pic" src="/img/youtube.png" alt="oops">
+            </div></a>
         </div>
     </main>
 
