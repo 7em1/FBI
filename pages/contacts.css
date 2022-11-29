@@ -218,3 +218,10 @@ fieldset {
     height: 50px;
     margin: 22px 0 0 24px ;
 }
+.insta:hover,
+.twit:hover,
+.you:hover,
+.face:hover{
+    transform: scale(1.5);  
+    background-color: aquamarine;
+}
