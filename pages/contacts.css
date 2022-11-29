@@ -191,7 +191,7 @@ fieldset {
 .circles {
     display: flex;
     justify-content: space-around;
-    margin: 43% 0 0 0;
+    margin-top: 50px;
 }
 
 .insta,
