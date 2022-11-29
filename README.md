@@ -1,1 +1,1 @@
-https://7em1.github.io/fbi/fbi
+https://7em1.github.io/FBI/FBI/pages/
